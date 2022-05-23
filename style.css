@@ -1,0 +1,310 @@
+body{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 10px;
+    margin: 0vw;
+
+
+}
+
+hr{
+    color: rgb(255, 0, 0);
+}
+
+/*Header-Nav*/
+header{
+    background-color: black;
+    color: white;
+    width: 99vw;
+    height: 23%;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+
+.imagen{
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-right: 45%;
+    box-sizing: border-box;
+
+}
+
+.targ{
+    width: 9vw;
+    height: auto;
+    box-sizing: border-box;
+    border: 2px aquamarine solid;
+    border-radius: 40%;
+    
+}
+nav{
+    font-size: 1.8em;
+    margin-left: 0%;
+    margin-right: 10%;
+    padding: 1% ;
+    box-sizing: border-box;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+.container-nav {
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    padding: 1%;
+    margin-right: 5%;
+    
+    
+    
+}
+.container-nav a{
+    margin-top: 0%;
+    text-decoration:none;
+    color: white;
+    padding: 3%;
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px aqua solid;
+}
+.container-nav a:hover{
+    transform: scale(1);
+    transition: ease 0.1s;
+    border-bottom: 4px rgb(0, 17, 255) solid;
+    margin-top: 0%;
+}
+/*section*/
+section{
+    background-color: rgb(218, 215, 215);
+    width: 94.2vw;
+    margin-top: 6%;
+    margin-right: 0%;
+    padding: 2.3%;
+    
+}
+
+
+article{
+   display: flex;
+    flex-wrap: wrap;
+}
+.nosotros{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    box-sizing: border-box;
+    
+}
+.nosotros h1{
+    font-size: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+}
+.nosotros img{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    border: 2px black outset;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+.nosotros p{
+    font-size: 3em;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    height: 10%;
+    
+    
+}
+
+    
+.hacemos h1{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+
+    text-decoration: underline;
+}
+.hacemos p{
+    font-size: 2em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+.servicios{
+    background-color: rgb(218, 215, 215);
+    border-top: black 2px;
+    
+}
+.servicios h1{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-decoration: underline;
+
+}
+.servicios h2{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+/*aside*/
+
+aside{
+   /* background-color: rgb(218, 218, 215);*/
+    background-color: rgb(218, 215, 215);
+    width: 94.2vw;
+    margin-right: 0%;
+    padding: 2.3%;
+}
+article{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+aside h1{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-decoration: underline;
+}
+aside h3{
+    font-size: 3em;
+    text-align: center;
+}
+
+aside ul{
+    font-size: 2em;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: rgb(218, 215, 215);
+    width: 94.2vw;
+    margin-right: 0%;
+    padding: 2.3%;
+
+}
+
+footer .contactof h1{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.directo{
+    display: flex;
+    
+    justify-content: space-evenly;
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.directo h2{
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-shadow: black 4px 4px 10px;
+
+}
+.socialmedia{
+    display:flex;
+    justify-content: center;
+    color: white;
+    
+}
+.socialmedia img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 3%;
+    height: 6%;
+    z-index: 999;
+    flex-direction: row;
+}
+
+.whatsapp{
+    bottom: 5vh;
+    right: 4vw;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.insta{
+    bottom: 15vh;
+    right: 4vw;
+    background-color: white;
+    border-radius: 50%;
+}
+.face{
+    bottom: 25vh;
+    right: 4vw;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.desarrollador{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color:  rgb(0, 0, 0);
+    background-attachment: fixed;
+    border-radius: 9%;
+    width: 100%;
+}
+
+.desarrollador h1{
+    font-size: 2em;
+    color: blue;
+    
+    
+}
